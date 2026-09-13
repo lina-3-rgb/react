@@ -7,3 +7,19 @@ $color-ligth: #db4e66;
     margin: 0;
     padding: 0;
 }
+
+.header {
+    width: $main-width;
+    background: $main-color;
+    padding: 42px 136px 30px 156px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+&-wrp {
+    display: flex !important;
+    justify-content: space-between;
+}
+
