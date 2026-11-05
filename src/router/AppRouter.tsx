@@ -6,6 +6,7 @@ import About from '@/pages/About/About';
 import NotFound from '@/pages/NotFound/NotFound';
 import CowsBulls from '@pages/CowsBulls/cow';
 import Guess from '@/pages/Guess/num';
+import Matrisa from '@/matrica/matrica';
 
 const AppRouter = () => {
     return <Routes>
@@ -15,6 +16,7 @@ const AppRouter = () => {
             <Route path="*" element={<NotFound />} />
             <Route path="cow" element={<CowsBulls/>}/>
             <Route path="num" element={<Guess/>}/>
+            <Route path="matrica" element={<Matrisa/>}></Route>
         </Route>
     </Routes>
 };
