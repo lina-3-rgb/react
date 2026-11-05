@@ -21,7 +21,7 @@ const Matrisa = () => {
 
   return (
     <div>
-      <h1>Реши</h1>
+      <h1>Реши матрицу</h1>
 
       <div>
         <input type="text" value={x1} onChange={(e) => setX1(e.target.value)} />
