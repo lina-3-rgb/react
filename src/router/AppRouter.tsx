@@ -9,6 +9,7 @@ import Guess from '@/pages/Guess/num';
 import Matrisa from '@/pages/matrica/matrica';
 import Matrica3x3 from '@/pages/Matrica3x3/Matrisa3'
 import Matrisa4x4 from '@/pages/Matrisa4x4/Matrica4';
+import Hello from "@/pages/Hello/Hello";
 
 const AppRouter = () => {
     return <Routes>
@@ -21,6 +22,7 @@ const AppRouter = () => {
             <Route path="matrica" element={<Matrisa/>}/>
             <Route path ="Matrisa3" element={<Matrica3x3/>}/>
             <Route path ="Matrisa4" element={<Matrisa4x4/>}/>
+            <Route path ="Hello" element={<Hello/>}/>
         </Route>
     </Routes>
 };

@@ -15,8 +15,8 @@ const Matrisa = () => {
     const Dismain = Number(x1) * Number(y2) - Number(y1) * Number(x2);
     const disX = Number(res1) * Number(y2) - Number(res2) * Number(y1);
     const disY = Number(x1) * Number(res2) - Number(x2) * Number(res1);
-    setX(String(Math.round(disX / Dismain * 100) / 100));
-    setY(String(Math.round(disY / Dismain * 100) / 100));
+    setX(String((disX / Dismain )));
+    setY(String((disY / Dismain ) ));
   }
 
   return (
